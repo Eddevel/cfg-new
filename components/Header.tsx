@@ -84,12 +84,11 @@ export function Header() {
           aria-label="Cookey Franklins Group Home"
         >
           <Image
-            src="/assets/cfg-logo000.png" // Static import
+            src="/assets/cfg-logo000.png"
             alt="Cookey Franklins Group Logo"
             width={40}
             height={40}
             className="header-logo w-10 sm:w-12 h-10 sm:h-12 object-contain"
-            placeholder="blur"
             priority
           />
           <span className="header-title text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-blue-900 tracking-tight">
